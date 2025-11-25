@@ -1,0 +1,220 @@
+/*-- CSS Reset --*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* my homepage code */
+
+
+body {
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif, sans-serif;
+   background-color: #0f6674;
+   background-image: url('/tv-static-noise-background-vintage-analog-screen-useful-as-112347812\ \(1\).jpg');
+   background-size: cover;
+   background-position: center;
+   color: greenyellow;
+   text-align: center;
+}
+.centered p a {
+   color: rgb(218, 205, 37);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 9rem;
+   text-decoration: none;
+ }
+
+
+ .centered p a:hover {
+   color: rgb(255, 255, 255);
+   background-color: rgb(255, 17, 0);
+   font-size: 12rem;
+ }
+ /* gallery 1 of website 
+
+
+ body .puzzlegallery {
+  text-align: center;
+  position:absolute;
+  font-size: 9rem;
+}
+.puzzle-image {
+  position: absolute;
+  left: 20%;
+  top: 70%;
+  transform: translate(-40%, -40%);
+  width: 400px;
+  height: auto;
+  object-fit: contain;
+  z-index: 0;
+}
+.puzzle-image2 {
+  position:absolute;
+  top: 200px;
+  left: 580px;
+  width: 400px;
+  height: auto;
+  border-radius:10px;
+}
+.puzzle-image3 {
+  position: absolute;
+  top: 380px;
+  left: 1000px;
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  z-index: 10; 
+}
+ */
+ body .puzzlegallery {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: greenyellow;
+  margin-top: 30px;
+  font-size: 3rem;
+}
+
+p {
+  color: greenyellow;
+  font-size: 9rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap; 
+}
+
+.container div {
+  width: 350px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* Q&A page */
+.puzzle-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.puzzle-image {
+  max-width: 400px;
+  width: 80%;
+}
+
+.questions-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.question-block {
+  background: #000000;
+  border: 3px solid #d5ff00;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.question {
+  color: #d6ff08;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.answer-btn {
+  border: 2px transparent #d6ff08;
+  color: #000000;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+/* Phase II of site */
+.phase2-body {
+  background-image: url('phase\ 2.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.phase2-link {
+  text-decoration: none;
+}
+
+.phase2-text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 120px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.phase2-text:hover {
+  opacity: 0.8;
+}
+
+
+
